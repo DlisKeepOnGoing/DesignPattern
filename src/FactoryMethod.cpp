@@ -5,15 +5,15 @@
 int main()
 {
     ClothesProduct* pro = NULL;
+    AbstractFactory* fac = NULL;
+    fac = new SweaterFactory();
+    pro = fac->getClothesProduct();
 
-    SweaterFactory* s_fac = new SweaterFactory();
-    pro = s_fac->getClothesProduct();
+    fac = new PantsFactory();
+    pro = fac->getClothesProduct();
 
-    PantsFactory*  p_fac = new PantsFactory();
-    pro = p_fac->getClothesProduct();
-
-    TshirtFactory* t_fac = new TshirtFactory();
-    pro = t_fac->getClothesProduct();
+    fac = new TshirtFactory();
+    pro = fac->getClothesProduct();
 
     return 0;
 }
