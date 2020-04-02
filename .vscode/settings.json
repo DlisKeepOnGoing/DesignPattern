@@ -3,6 +3,7 @@
         "new": "cpp",
         "iosfwd": "cpp"
     },
+    "C_Cpp.errorSquiggles": "Disabled",
     //"terminal.integrated.fontSize": 10,
     //"terminal.integrated.fontFamily": "Ubuntu mono"
 }

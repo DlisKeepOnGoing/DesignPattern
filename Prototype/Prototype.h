@@ -1,7 +1,6 @@
 #ifndef _PROTOTYPE_H_
 #define _PROTOTYPE_H_
 
-
 #include "iostream"
 using namespace std;
 /*Prototype模式提供了一个通过已存在对象进行新对象创建的接口（Clone）
@@ -16,7 +15,7 @@ using namespace std;
 */
 class Prototype
 {
-protectd:
+protected:
     Prototype();
 public:
     virtual Prototype* Clone() const=0;//定义Clone接口，根据不同的派生类来实例化对象
