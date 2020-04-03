@@ -1,7 +1,6 @@
 #ifndef _EXAMPLE_H_
 #define _EXAMPLE_H_
 #include<iostream>
-
 using namespace std;
 
 
@@ -30,8 +29,6 @@ public:
     virtual void fun_two() = 0;
     virtual void fun_four() = 0;
 };
-
-
 
 class EnumerationIteration: public Iteration
 {
