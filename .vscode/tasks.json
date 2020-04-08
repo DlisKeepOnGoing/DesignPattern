@@ -1,7 +1,7 @@
 {
     "version": "2.0.0",
     "command": "g++",
-    "args": ["-g","./Decorator/main.cpp","-o","${fileBasenameNoExtension}.exe", "-I", "./Component/"], // 编译命令参数
+    "args": ["-g","./Facade/main.cpp","-o","${fileBasenameNoExtension}.exe", "-I", "./Component/"], // 编译命令参数
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],
