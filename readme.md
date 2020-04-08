@@ -15,3 +15,11 @@
 3. 组合模式(Composite)
 4. 装饰器模式(Decorator)
 5. 外观模式(Facade)
+
+
+
+
+
+
+
+文档资料参考了www.javaclimb.com
