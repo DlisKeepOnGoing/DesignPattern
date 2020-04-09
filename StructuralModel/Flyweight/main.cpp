@@ -75,6 +75,9 @@ int main()
 {
     FlyweightFactory* fac = new FlyweightFactory();
     Flyweight* f1 = fac->getFlyweight("a");
+
+
+    
     Flyweight* f2 = fac->getFlyweight("a");
     Flyweight* f3 = fac->getFlyweight("a");
 
