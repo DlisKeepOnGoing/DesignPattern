@@ -87,7 +87,7 @@ d） 当系统需要支持命令的撤销（Undo）操作和恢复（Redo）操�
 
  
 
-![组合命令模式的结构图](./images/clip_image005.jpg)
+![组合命令模式的结构图](/images/clip_image005.jpg)
  图3 组合命令模式的结构图
 
  
