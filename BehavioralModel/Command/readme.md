@@ -45,7 +45,7 @@ d） 调用者/请求者（Invoker）角色：是请求的发送者，它通常�
 
  
 
-![命令模式的结构图](./images/clip_image001.jpg)
+![命令模式的结构图](/images/clip_image001.jpg)
  图1 命令模式的结构图
 
  
@@ -60,7 +60,7 @@ d） 调用者/请求者（Invoker）角色：是请求的发送者，它通常�
 
  
 
-![客户在餐馆吃早餐的结构图](./images/clip_image003.jpg)
+![客户在餐馆吃早餐的结构图](/images/clip_image003.jpg)
  图2 客户在餐馆吃早餐的结构图
 
  
