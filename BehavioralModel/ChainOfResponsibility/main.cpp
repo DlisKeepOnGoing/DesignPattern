@@ -28,6 +28,7 @@ public:
 //班主任
 class ConcreteHandlerOne:public Handler
 {
+public:
     void handleRequest(int leaveDays)
     {
         if(leaveDays <= 2)
@@ -44,6 +45,7 @@ class ConcreteHandlerOne:public Handler
 //系主任
 class ConcreteHandlerTwo:public Handler
 {
+public:
     void handleRequest(int leaveDays)
     {
         if(leaveDays <= 7)
@@ -59,6 +61,7 @@ class ConcreteHandlerTwo:public Handler
 //院长
 class ConcreteHandlerThree:public Handler
 {
+public:
     void handleRequest(int leaveDays)
     {
         if(leaveDays <= 10)
@@ -77,7 +80,7 @@ class ConcreteHandlerThree:public Handler
 int main()
 {
     int leaveDays = 1;
-    Handler* handle1 = new ConcreteHandlerOne();
+    ConcreteHandlerOne* handle1 = new ConcreteHandlerOne();
     Handler* handle2 = new ConcreteHandlerTwo();
     Handler* handle3 = new ConcreteHandlerThree();
     handle1->setNext(handle2);
