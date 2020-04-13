@@ -45,7 +45,7 @@ d） 调用者/请求者（Invoker）角色：是请求的发送者，它通常�
 
  
 
-![命令模式的结构图](/images/clip_image001.jpg)
+![命令模式的结构图](./images/clip_image001.png)
  图1 命令模式的结构图
 
  
@@ -60,7 +60,7 @@ d） 调用者/请求者（Invoker）角色：是请求的发送者，它通常�
 
  
 
-![客户在餐馆吃早餐的结构图](/images/clip_image003.jpg)
+![客户在餐馆吃早餐的结构图](./images/clip_image003.png)
  图2 客户在餐馆吃早餐的结构图
 
  
@@ -87,7 +87,7 @@ d） 当系统需要支持命令的撤销（Undo）操作和恢复（Redo）操�
 
  
 
-![组合命令模式的结构图](/images/clip_image005.jpg)
+![组合命令模式的结构图](./images/clip_image005.png)
  图3 组合命令模式的结构图
 
  
