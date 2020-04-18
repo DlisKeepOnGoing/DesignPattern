@@ -1,7 +1,7 @@
 {
     "version": "2.0.0",
     "command": "g++",
-    "args": ["-g","./BehavioralModel/Command/example.cpp","-o","${fileBasenameNoExtension}.exe", "-I", "./Component/"], // 编译命令参数
+    "args": ["-g","./BehavioralModel/Iterator/main.cpp","-o","${fileBasenameNoExtension}.exe", "-I", "./BehavioralModel/Iterator/"], // 编译命令参数
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],
